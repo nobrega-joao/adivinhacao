@@ -74,7 +74,7 @@ int main() {
     printf("Fim de jogo\n");
     if(acertou){
         printf("Voce ganhou!\n");
-        printf("Voce ganhou o jogo em %d tentativas!\n", tentativas);
+        printf("Voce ganhou o jogo em %d tentativas!\n", tentativas+1);
         printf("Total de pontos: %.1f\n", pontos);
     } else{
         printf("Voce perdeu:(\n");
